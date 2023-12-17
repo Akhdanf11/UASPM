@@ -12,28 +12,37 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string-array name="flower_name">
-        <item>Aglaonema</item>
-        <item>Calathea</item>
-        <item>Peperomia Watermelon</item>
-        <item>Scindapsus Treubii</item>
-        <item>Philodendron Selloum Variegata</item>
-        <item>Hypoestes phyllostachya</item>
-        <item>Stromanthe Varieties</item>
-        <item>Sansevieria</item>
-        <item>Sri Rezeki</item>
-    </string-array>
-    
-    <integer-array name="data_photo_flower">
-        <item>@drawable/aglonema</item>
-        <item>@drawable/calathea</item>
-        <item>@drawable/peperomia_watermelon</item>
-        <item>@drawable/scindapsus_treubii</item>
-        <item>@drawable/philodendron_selloum_variegata</item>
-        <item>@drawable/hypoestes_phyllostachya</item>
-        <item>@drawable/stromanthe_varieties</item>
-        <item>@drawable/sansevieria</item>
-        <item>@drawable/sri_rezeki</item>
+    <string name="Aglonema">Aglaonema</string>
+    <string name="Calathea">Calathea</string>
+    <string name="Peperomia">Peperomia Watermelon</string>
+    <string name="Scindapsus">Scindapsus Treubii</string>
+    <string name="Philodendron">Philodendron Selloum Variegata</string>
+    <string name="Hypoestes">Hypoestes phyllostachya</string>
+    <string name="Stromanthe">Stromanthe Varieties</string>
+    <string name="Sansevieria">Sansevieria</string>
+    <string name="Sri">Sri Rezeki</string>
+<!--    <string-array name="flower_name">-->
+<!--        <item>Aglaonema</item>-->
+<!--        <item>Calathea</item>-->
+<!--        <item>Peperomia Watermelon</item>-->
+<!--        <item>Scindapsus Treubii</item>-->
+<!--        <item>Philodendron Selloum Variegata</item>-->
+<!--        <item>Hypoestes phyllostachya</item>-->
+<!--        <item>Stromanthe Varieties</item>-->
+<!--        <item>Sansevieria</item>-->
+<!--        <item>Sri Rezeki</item>-->
+<!--    </string-array>-->
+<!--    -->
+<!--    <integer-array name="data_photo_flower">-->
+<!--        <item>@drawable/aglonema</item>-->
+<!--        <item>@drawable/calathea</item>-->
+<!--        <item>@drawable/peperomia_watermelon</item>-->
+<!--        <item>@drawable/scindapsus_treubii</item>-->
+<!--        <item>@drawable/philodendron_selloum_variegata</item>-->
+<!--        <item>@drawable/hypoestes_phyllostachya</item>-->
+<!--        <item>@drawable/stromanthe_varieties</item>-->
+<!--        <item>@drawable/sansevieria</item>-->
+<!--        <item>@drawable/sri_rezeki</item>-->
 
-    </integer-array>
+<!--    </integer-array>-->
 </resources>

@@ -43,41 +43,41 @@ class DashboardActivity : AppCompatActivity() {
         binding = ActivityDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        list.addAll(listMyFlower)
-        showRecylerList()
+//        list.addAll(listMyFlower)
+//        showRecylerList()
 
         setUpNavibottom()
     }
 
-    private val listMyFlower: ArrayList<MyFlower>
-        get() {
-            val dataName = resources.getStringArray(R.array.flower_name)
-            val dataPhoto = resources.obtainTypedArray(R.array.data_photo_flower)
-            val recylerviewPlant = ArrayList<MyFlower>()
-            for (i in dataName.indices){
-                val flower = MyFlower(dataName[i], dataPhoto.getResourceId(i, -1))
-                recylerviewPlant.add(flower)
-            }
-            return recylerviewPlant
-        }
+//    private val listMyFlower: ArrayList<MyFlower>
+//        get() {
+//            val dataName = resources.getStringArray(R.array.flower_name)
+//            val dataPhoto = resources.obtainTypedArray(R.array.data_photo_flower)
+//            val recylerviewPlant = ArrayList<MyFlower>()
+//            for (i in dataName.indices){
+//                val flower = MyFlower(dataName[i], dataPhoto.getResourceId(i, -1))
+//                recylerviewPlant.add(flower)
+//            }
+//            return recylerviewPlant
+//        }
 
 
-    private fun showRecylerList(){
-        if(applicationContext.resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE){
-            binding.recylerviewPlant.layoutManager = GridLayoutManager(this, 2)
-        }else {
-            binding.recylerviewPlant.layoutManager = LinearLayoutManager(this)
-        }
-
-        val adapter = MyFlowerAdapter(list)
-        binding.recylerviewPlant.adapter = adapter
-        adapter.setOnItemClickCallback(object : MyFlowerAdapter.OnitemClickCallback{
-            override fun onItemClicked(data: MyFlower) {
-                Toast.makeText(this@DashboardActivity, "Kamu memilih " +
-                data.name, Toast.LENGTH_SHORT).show()
-            }
-        })
-    }
+//    private fun showRecylerList(){
+//        if(applicationContext.resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE){
+//            binding.recylerviewPlant.layoutManager = GridLayoutManager(this, 2)
+//        }else {
+//            binding.recylerviewPlant.layoutManager = LinearLayoutManager(this)
+//        }
+//
+//        val adapter = MyFlowerAdapter(list)
+//        binding.recylerviewPlant.adapter = adapter
+//        adapter.setOnItemClickCallback(object : MyFlowerAdapter.OnitemClickCallback{
+//            override fun onItemClicked(data: MyFlower) {
+//                Toast.makeText(this@DashboardActivity, "Kamu memilih " +
+//                data.name, Toast.LENGTH_SHORT).show()
+//            }
+//        })
+//    }
 
     private fun setUpNavibottom() {
         fm.beginTransaction().add(R.id.navi_content,fragHome).show(fragHome).commit()

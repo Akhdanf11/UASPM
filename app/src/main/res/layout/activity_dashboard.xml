@@ -4,22 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context=".DashboardActivity">
     
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/navi_content"
-        android:orientation="vertical"
-        android:layout_above="@id/navView">
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recylerview_plant"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:itemCount="5"
-            tools:listitem="@layout/item_flower" />
-    </LinearLayout>
+        android:id="@+id/navi_content"/>
 
 
 
