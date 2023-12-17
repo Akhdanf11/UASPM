@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "648882174985",
+    "firebase_url": "https://florist-mobile-app-default-rtdb.firebaseio.com",
+    "project_id": "florist-mobile-app",
+    "storage_bucket": "florist-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648882174985:android:98e8619f6571b19e9b8cd8",
+        "android_client_info": {
+          "package_name": "com.example.uaspm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-9l5_ndqoKp36GiO3u3I5UMvG-e3htc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
